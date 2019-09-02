@@ -64,8 +64,8 @@ export class AudioTrackProgressBarComponent implements OnChanges, DoCheck {
 
   @Output() onFinish: EventEmitter<any> = new EventEmitter();
 
-  private _showDuration: boolean;
-  private _showProgress: boolean;
+   _showDuration: boolean;
+   _showProgress: boolean;
 
   constructor() {
   }
